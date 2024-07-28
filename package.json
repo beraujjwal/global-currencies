@@ -1,0 +1,25 @@
+{
+  "name": "global-currencies",
+  "version": "1.0.3",
+  "description": "The global-currencies npm package provides a comprehensive list of global currencies, including their names, symbols, and ISO 4217 codes. This package is designed for developers who need an easy and reliable way to access currency information for financial applications, e-commerce platforms, or internationalization projects. Whether you're building a currency converter, a payment system, or simply need to display currency information, global-currencies offers a straightforward solution with up-to-date and accurate data.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch & nodemon dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "geography",
+    "timezones",
+    "typescript",
+    "javascript"
+  ],
+  "author": "Ujjwal Bera <ujjwalbera.dev@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  },
+  "repository": "https://github.com/beraujjwal/global-currencies.git"
+}
